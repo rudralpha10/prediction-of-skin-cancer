@@ -1,0 +1,44 @@
+#Navbar {
+    background-color: black;
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#Account {
+    background-image: url("My_Image.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.SearchBar {
+    border-radius: 10px;
+}
+
+.Content {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+}
+
+#Inside {
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}

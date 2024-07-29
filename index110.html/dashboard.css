@@ -1,0 +1,82 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f0f8ff; 
+   
+    background-size: cover;
+    color: #e1d1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard-container {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+h1 {
+    color: #7a16bd;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    text-align: left;
+    border-top: 8px solid #3f51b5; 
+    position: relative;
+    overflow: hidden;
+}
+
+.doctor-box {
+    border-color: #3f51b5;
+}
+
+.user-box {
+    border-color: #ff4081;
+}
+
+.box h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.box button {
+    background: linear-gradient(45deg, #3f51b5, #ff4081);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.box button:hover {
+    background: linear-gradient(45deg, #ff4081, #3f51b5);
+}
